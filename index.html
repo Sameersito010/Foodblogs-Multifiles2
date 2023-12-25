@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blogs Multi Images</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1 class="bg-primary text-white p-4 mb-4">
+        Food Blogs Multi Images
+    </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="recipeForm">
+                            <div class="form-group">
+                                <label for="title">Recipe Title</label>
+                                <input type="text" id="RecipeTitle" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="title">Recipe Details</label>
+                                <textarea id="recipeDetails" rows="5" class="form-control"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="title">Recipe Thumb Image</label>
+                                <input type="file" id="recipeThumbImg">
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="title">Recipe Banner Image</label>
+                                <input type="file" id="recipeBannerImg">
+                            </div>
+
+                            <div class="form-group text-right">
+                                <button class="btn btn-primary">Add Recipe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <img src="" alt="" class="img-fluid" id="thumbImg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
